@@ -1,4 +1,4 @@
-= ArdumotoStepper Library for Arduino =
+= Stepper Library for Arduino with Ardumoto Shield =
 
 This library allows you to control 4 wire bipolar stepper motors. To use it you will need a stepper motor and a SparkFun Ardumoto shield.
 
