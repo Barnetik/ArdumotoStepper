@@ -1,6 +1,7 @@
 /*
- * ArdumotoStepper.h - ArdumotoStepper library for Wiring/Arduino - Version 1.1.0
+ * ArdumotoStepper.cpp - ArdumotoStepper library for Wiring/Arduino - Version 1.0
  *
+ * Based on Arduino Stepper library. Original Contributors:
  * Original library        (0.1)   by Tom Igoe.
  * Two-wire modifications  (0.2)   by Sebastian Gassner
  * Combination version     (0.3)   by Tom Igoe and David Mellis
@@ -8,6 +9,8 @@
  * High-speed stepping mod         by Eugene Kozlenko
  * Timer rollover fix              by Eugene Kozlenko
  * Five phase five wire    (1.1.0) by Ryan Orendorff
+ *
+ * ArdumotoStepper adaptation (1.0) by Alayn Gortazar (Barnetik Koop. Elk. Txikia)
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -24,7 +27,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  *
  *
- * Drives a unipolar, bipolar, or five phase ArdumotoStepper motor.
+ * Drives a 4 wired bipolar Stepper motor over SparkFun's Ardumoto shield.
  *
  * When wiring multiple ArdumotoStepper motors to a microcontroller, you quickly run
  * out of output pins, with each motor requiring 4 connections.
