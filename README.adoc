@@ -1,15 +1,13 @@
-= Stepper Library for Arduino =
+= ArdumotoStepper Library for Arduino =
 
-This library allows you to control unipolar or bipolar stepper motors. To use it you will need a stepper motor, and the appropriate hardware to control it.
-
-For more information about this library please visit us at
-http://www.arduino.cc/en/Reference/Stepper
+This library allows you to control 4 wire bipolar stepper motors. To use it you will need a stepper motor and an SparkFun Ardumoto shield.
 
 == License ==
 
 Copyright (c) Arduino LLC. All right reserved.
 Copyright (c) Sebastian Gassner. All right reserved.
 Copyright (c) Noah Shibley. All right reserved.
+Copyright (c) Alayn Gortazar. All right reserved.
 
 This library is free software; you can redistribute it and/or
 modify it under the terms of the GNU Lesser General Public

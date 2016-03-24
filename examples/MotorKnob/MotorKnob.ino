@@ -14,9 +14,8 @@
 #define STEPS 100
 
 // create an instance of the stepper class, specifying
-// the number of steps of the motor and the pins it's
-// attached to
-Stepper stepper(STEPS, 8, 9, 10, 11);
+// the number of steps of the motor
+ArdumotoStepper stepper(STEPS);
 
 // the previous reading from the analog input
 int previous = 0;
